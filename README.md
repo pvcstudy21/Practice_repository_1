@@ -22,3 +22,18 @@ def even_or_odd(n):
 
 even_or_odd(5)
 Odd Number
+
+# Write a function to find the number is prime number or not 
+
+def prime_or_not(n):
+    for i in range(2,n):
+        if n%i != 0:
+            print("prime")
+            break
+        else:
+            print("not prime)
+            break
+
+
+prime_or_not(5)
+prime
