@@ -1,0 +1,14 @@
+# 1. How to find leanth of string with and without using len() function
+
+# without len function
+s = "prathamesh"
+
+count = 0
+
+for i in s:
+    count = count+1
+
+print(count)
+
+# with len function
+print(len(s))
